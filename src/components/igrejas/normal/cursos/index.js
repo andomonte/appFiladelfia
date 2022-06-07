@@ -155,7 +155,7 @@ function Cursos({ title }) {
             </Box>
             <Hidden smDown>
               <Box color="#fff" display="flex" justifyContent="center">
-                <Box>CURSOS IDPB-CASTELO</Box>
+                <Box>CURSOS IDPB-FILADELFIA</Box>
               </Box>
             </Hidden>
 
@@ -200,7 +200,7 @@ function Cursos({ title }) {
                   color: '#fff',
                 }}
               >
-                IDPB-CASTELO
+                IDPB-FILADELFIA
               </Typography>
             </Box>
 

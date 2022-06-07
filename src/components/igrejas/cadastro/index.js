@@ -530,7 +530,7 @@ function Cadastro({ lideranca, rolMembros }) {
           >
             <Box width="100%">
               <Box textAlign="center" mt={-3} mb={2}>
-                <img src="/images/castelo.png" alt="Castelo" width={80} />
+                <img src="/images/filadelfia.png" alt="Filadelfia" width={80} />
               </Box>
               <Box display="flex" justifyContent="center" alignItems="center">
                 <Box

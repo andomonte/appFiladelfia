@@ -61,7 +61,7 @@ function Dicas() {
                         height: 80,
                       }}
                       alt="Remy Sharp"
-                      src="images/castelo/castelo.png"
+                      src="images/filadelfia/filadelfia.png"
                     />
                   </Box>
 
@@ -75,7 +75,7 @@ function Dicas() {
                     }}
                     textAlign="center"
                   >
-                    IDPB - CASTELO{' '}
+                    IDPB - FILADELFIA{' '}
                   </Box>
                 </Box>
               </Box>

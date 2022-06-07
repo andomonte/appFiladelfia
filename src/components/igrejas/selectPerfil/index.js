@@ -7,7 +7,7 @@ import Cadastro from 'src/components/igrejas/cadastro';
 
 import MenuItem from '@material-ui/core/MenuItem';
 import { useRouter } from 'next/router';
-import { IdpbCastelo } from 'src/components/igrejas/normal';
+import { IdpbFiladelfia } from 'src/components/igrejas/normal';
 import Espera from 'src/utils/espera';
 import corIgreja from 'src/utils/coresIgreja';
 
@@ -89,7 +89,7 @@ function SelectPerfil({ lideranca, rolMembros, celulas, userIgrejas }) {
 
   if (openEspera) return <Espera descricao="Buscando Seu Perfil" />;
 
-  const dadosUser = userIgrejas.filter((val) => val.codigo === 'AM-030');
+  const dadosUser = userIgrejas.filter((val) => val.codigo === 'AM-049');
   let valorPerfil = {};
   let userMembro = {};
   if (session) {
@@ -245,7 +245,7 @@ function SelectPerfil({ lideranca, rolMembros, celulas, userIgrejas }) {
         >
           <Box width="100%">
             <Box textAlign="center" mt={-3} mb={2}>
-              <img src="/images/castelo.png" alt="Castelo" width={80} />
+              <img src="/images/filadelfia.png" alt="Filadelfia" width={80} />
             </Box>
             <Box display="flex" justifyContent="center" alignItems="center">
               <Box
@@ -366,7 +366,7 @@ function SelectPerfil({ lideranca, rolMembros, celulas, userIgrejas }) {
         />
       ) : (
         <Box>
-          <IdpbCastelo
+          <IdpbFiladelfia
             lideranca={lideranca}
             rolMembros={rolMembros}
             userIgrejas={dadosUser}

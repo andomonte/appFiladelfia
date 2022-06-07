@@ -23,7 +23,7 @@ function getDados(email, nome) {
   return data;
 } */
 const nomeDistrito = [
-  'Castelo',
+  'Filadelfia',
   'União da Vitória',
   'Campos Sales',
   'Bairro da Paz',
@@ -81,7 +81,7 @@ function meuPerfil({ secao, perfilUser }) {
                         height: 80,
                       }}
                       alt="Remy Sharp"
-                      src="images/castelo/castelo.png"
+                      src="images/filadelfia/filadelfia.png"
                     />
                   </Box>
 
@@ -95,7 +95,7 @@ function meuPerfil({ secao, perfilUser }) {
                     }}
                     textAlign="center"
                   >
-                    IDPB - CASTELO{' '}
+                    IDPB - FILADELFIA{' '}
                   </Box>
                 </Box>
               </Box>

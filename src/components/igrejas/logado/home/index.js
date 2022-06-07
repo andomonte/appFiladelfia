@@ -139,7 +139,7 @@ function TabPanel(props) {
   );
 }
 
-function IdpbCastelo({ userIgrejas, title, celulas }) {
+function IdpbFiladelfia({ userIgrejas, title, celulas }) {
   const classes = useStyles();
   const [value, setValue] = React.useState(0);
 
@@ -195,7 +195,7 @@ function IdpbCastelo({ userIgrejas, title, celulas }) {
 
               <Hidden mdDown>
                 <img
-                  src="/images/castelo.png"
+                  src="/images/filadelfia.png"
                   alt="logo"
                   className={classes.logo}
                 />
@@ -286,4 +286,4 @@ function IdpbCastelo({ userIgrejas, title, celulas }) {
   );
 }
 
-export { IdpbCastelo, TabPanel };
+export { IdpbFiladelfia, TabPanel };

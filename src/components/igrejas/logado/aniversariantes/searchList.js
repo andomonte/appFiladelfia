@@ -80,7 +80,7 @@ function SearchList({ rolMembros }) {
     'Dezembro',
   ];
   const distrito = [
-    'Castelo',
+    'Filadelfia',
     'União da Vitório',
     'Campos Sales',
     'Bairro da Paz',
