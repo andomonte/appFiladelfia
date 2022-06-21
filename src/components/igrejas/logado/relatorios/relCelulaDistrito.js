@@ -140,12 +140,24 @@ function RelCelula({ perfilUser, lideranca }) {
                 <Box width="96%" ml={1} minWidth={300}>
                   <Grid container spacing={1} item xs={12}>
                     <Grid item xs={6}>
-                      <Paper width="100%" className={classes.paper}>
-                        <Box height={25} width="100%" display="flex">
+                      <Box
+                        bgcolor="white"
+                        borderRadius={5}
+                        height={41}
+                        width="100%"
+                        display="flex"
+                      >
+                        <Box
+                          height={40}
+                          width="100%"
+                          justifyContent="center"
+                          alignItems="center"
+                          display="flex"
+                        >
                           <Box
-                            width="20%"
+                            ml={-3}
                             display="flex"
-                            justifyContent="flex-end"
+                            justifyContent="flex-start"
                             alignItems="center"
                           >
                             <IconButton
@@ -189,7 +201,7 @@ function RelCelula({ perfilUser, lideranca }) {
                             </IconButton>
                           </Box>
                         </Box>
-                      </Paper>
+                      </Box>
                     </Grid>
                     <Grid item xs={6}>
                       <Paper width="100%" className={classes.paper}>
@@ -213,12 +225,7 @@ function RelCelula({ perfilUser, lideranca }) {
                         width="100%"
                         display="flex"
                       >
-                        <Box
-                          width="10%"
-                          display="flex"
-                          justifyContent="flex-end"
-                          alignItems="center"
-                        >
+                        <Box ml={-3}>
                           <IconButton
                             color="primary"
                             aria-label="upload picture"
@@ -228,7 +235,7 @@ function RelCelula({ perfilUser, lideranca }) {
                             }}
                           >
                             <SvgIcon sx={{ color: corIgreja.iconeOn }} />{' '}
-                            <BiCaretLeft />
+                            <BiCaretLeft size={30} />
                           </IconButton>
                         </Box>
                         <Box
@@ -256,7 +263,7 @@ function RelCelula({ perfilUser, lideranca }) {
                             }}
                           >
                             <SvgIcon sx={{ color: corIgreja.iconeOn }} />
-                            <BiCaretRight />
+                            <BiCaretRight size={30} />
                           </IconButton>
                         </Box>
                       </Box>
