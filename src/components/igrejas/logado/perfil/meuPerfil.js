@@ -81,6 +81,7 @@ function meuPerfil({ secao, perfilUser }) {
                   </Box>
                 </Box>
                 <Box
+                  mt="1vh"
                   display="flex"
                   width="100%"
                   height="74vh"
@@ -96,7 +97,7 @@ function meuPerfil({ secao, perfilUser }) {
                       justifyContent="center"
                       alignItems="center"
                       mt="4vh"
-                      mb="7vh"
+                      mb="4vh"
                     >
                       <Box
                         height={110}
@@ -118,6 +119,7 @@ function meuPerfil({ secao, perfilUser }) {
                       </Box>
                     </Box>
                     <Box
+                      mt="5vh"
                       display="flex"
                       justifyContent="flex-start"
                       alignItems="center"
@@ -334,8 +336,9 @@ function meuPerfil({ secao, perfilUser }) {
                     </Box>
 
                     <Box
+                      mt="3vh"
                       height="40%"
-                      minHeight={150}
+                      minHeight={100}
                       display="flex"
                       justifyContent="center"
                       alignItems="center"
