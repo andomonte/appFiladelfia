@@ -96,7 +96,7 @@ function meuPerfil({ secao, perfilUser }) {
                       justifyContent="center"
                       alignItems="center"
                       mt="4vh"
-                      mb="5vh"
+                      mb="7vh"
                     >
                       <Box
                         height={110}
@@ -109,8 +109,8 @@ function meuPerfil({ secao, perfilUser }) {
                       >
                         <Avatar
                           style={{
-                            width: 105,
-                            height: 105,
+                            width: 100,
+                            height: 100,
                           }}
                           alt="Remy Sharp"
                           src={secao.user.image}
@@ -125,8 +125,8 @@ function meuPerfil({ secao, perfilUser }) {
                       width="100%"
                     >
                       <Box
-                        height={100}
-                        width={110}
+                        height={90}
+                        width={100}
                         display="flex"
                         bgcolor="white"
                         borderRadius={6}
@@ -136,7 +136,7 @@ function meuPerfil({ secao, perfilUser }) {
                         ml={2}
                       >
                         <QRCode
-                          size={90}
+                          size={78}
                           value={perfilUser.Igreja + perfilUser.RolMembro}
                         />
                       </Box>
